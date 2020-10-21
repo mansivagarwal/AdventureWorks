@@ -1,0 +1,355 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="54" y="30" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AW2017_Input|||select Person.CountryRegion.CountryRegionCode,
+	Person.CountryRegion.Name 
+from Person.CountryRegion</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AW2017_Input
+Query=select Person.CountryRegion....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="CountryRegionCode" size="3" source="File: aka:AW2017_Input|||select Person.CountryRegion.CountryRegionCode,&#xA;	Person.CountryRegion.Name &#xA;from Person.CountryRegion" type="V_WString" />
+            <Field name="Name" size="50" source="File: aka:AW2017_Input|||select Person.CountryRegion.CountryRegionCode,&#xA;	Person.CountryRegion.Name &#xA;from Person.CountryRegion" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="66" y="234" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,
+	Person.StateProvince.Name,
+	Person.StateProvince.CountryRegionCode,
+	Person.StateProvince.StateProvinceID,
+	Person.StateProvince.* 
+from Person.StateProvince</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AW2017_Input
+Query=select Person.StateProvince....</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="StateProvinceCode" size="3" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="WString" />
+            <Field name="Name" size="50" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="V_WString" />
+            <Field name="CountryRegionCode" size="3" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="V_WString" />
+            <Field name="StateProvinceID" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="Int32" />
+            <Field name="StateProvinceID2" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="Int32" />
+            <Field name="StateProvinceCode2" size="3" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="WString" />
+            <Field name="CountryRegionCode2" size="3" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="V_WString" />
+            <Field name="IsOnlyStateProvinceFlag" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="Bool" />
+            <Field name="Name2" size="50" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="V_WString" />
+            <Field name="TerritoryID" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="Int32" />
+            <Field name="rowguid" size="36" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="V_String" />
+            <Field name="ModifiedDate" source="File: aka:AW2017_Input|||select Person.StateProvince.StateProvinceCode,&#xA;	Person.StateProvince.Name,&#xA;	Person.StateProvince.CountryRegionCode,&#xA;	Person.StateProvince.StateProvinceID,&#xA;	Person.StateProvince.* &#xA;from Person.StateProvince" type="DateTime" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="222" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="CountryRegionCode" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="CountryRegionCode" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_Name" selected="True" rename="Right_Name" input="Right_" />
+                <SelectField field="Right_CountryRegionCode" selected="True" rename="Right_CountryRegionCode" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="4">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="270" y="198" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AW2017_Input|||select Person.Address.City,
+	Person.Address.StateProvinceID,
+	Person.Address.PostalCode 
+from Person.Address</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AW2017_Input
+Query=select Person.Address.City,...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="City" size="30" source="File: aka:AW2017_Input|||select Person.Address.City,&#xA;	Person.Address.StateProvinceID,&#xA;	Person.Address.PostalCode &#xA;from Person.Address" type="V_WString" />
+            <Field name="StateProvinceID" source="File: aka:AW2017_Input|||select Person.Address.City,&#xA;	Person.Address.StateProvinceID,&#xA;	Person.Address.PostalCode &#xA;from Person.Address" type="Int32" />
+            <Field name="PostalCode" size="15" source="File: aka:AW2017_Input|||select Person.Address.City,&#xA;	Person.Address.StateProvinceID,&#xA;	Person.Address.PostalCode &#xA;from Person.Address" type="V_WString" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="5">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Join.Join">
+        <Position x="366" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration joinByRecordPos="False">
+          <JoinInfo connection="Left">
+            <Field field="StateProvinceID" />
+          </JoinInfo>
+          <JoinInfo connection="Right">
+            <Field field="StateProvinceID" />
+          </JoinInfo>
+          <SelectConfiguration>
+            <Configuration outputConnection="Join">
+              <OrderChanged value="False" />
+              <CommaDecimal value="False" />
+              <SelectFields>
+                <SelectField field="Right_StateProvinceID" selected="True" rename="Right_StateProvinceID" input="Right_" />
+                <SelectField field="*Unknown" selected="True" />
+              </SelectFields>
+            </Configuration>
+          </SelectConfiguration>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxJoin" />
+    </Node>
+    <Node ToolID="6">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.RecordID.RecordID">
+        <Position x="486" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <FieldName>GeographyKey</FieldName>
+          <StartValue>1</StartValue>
+          <FieldType>Int32</FieldType>
+          <FieldSize>6</FieldSize>
+          <Position>0</Position>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxRecordID" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="798" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:AW_Purchase_Output|||DimGeography</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <AppendMap>
+              <AppendMapping mode="Custom">
+                <Field Source="GeographyKey" Dest="GeographyKey" />
+                <Field Source="CountryRegionCode" Dest="CountryRegionCode" />
+                <Field Source="Name" Dest="CountryRegionName" />
+                <Field Source="StateProvinceCode" Dest="StateProvinceCode" />
+                <Field Source="Right_Name" Dest="StateProvinceName" />
+                <Field Source="City" Dest="City" />
+                <Field Source="PostalCode" Dest="PostalCode" />
+              </AppendMapping>
+            </AppendMap>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AW_Purchase_Output
+Query=DimGeography</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="618" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="GeographyKey" selected="True" />
+            <SelectField field="CountryRegionCode" selected="True" />
+            <SelectField field="Name" selected="True" description="CountryRegionName" />
+            <SelectField field="StateProvinceCode" selected="True" />
+            <SelectField field="Right_Name" selected="True" description="StateProvinceName" />
+            <SelectField field="City" selected="True" />
+            <SelectField field="PostalCode" selected="True" />
+            <SelectField field="*Unknown" selected="False" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="3" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="3" Connection="Join" />
+      <Destination ToolID="5" Connection="Left" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="4" Connection="Output" />
+      <Destination ToolID="5" Connection="Right" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="5" Connection="Join" />
+      <Destination ToolID="6" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="6" Connection="Output" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="8" Connection="Output" />
+      <Destination ToolID="7" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DimGeography</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

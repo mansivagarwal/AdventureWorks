@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2020.3">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="78" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <CachedCosmeticName />
+          <File RecordLimit="" FileFormat="23">aka:AWDW17|||select DimDate.DateKey,
+	DimDate.FullDateAlternateKey,
+	DimDate.DayNumberOfWeek,
+	DimDate.EnglishDayNameOfWeek,
+	DimDate.DayNumberOfMonth,
+	DimDate.DayNumberOfYear,
+	DimDate.WeekNumberOfYear,
+	DimDate.EnglishMonthName,
+	DimDate.MonthNumberOfYear,
+	DimDate.CalendarQuarter,
+	DimDate.CalendarYear,
+	DimDate.CalendarSemester,
+	DimDate.FiscalQuarter,
+	DimDate.FiscalYear,
+	DimDate.FiscalSemester,
+	DimDate.* 
+from DimDate</File>
+          <FormatSpecificOptions>
+            <PreSQL />
+            <PreSQLOnConfig>True</PreSQLOnConfig>
+            <NoProgress>True</NoProgress>
+            <CacheData>False</CacheData>
+            <TableStyle>Quoted</TableStyle>
+            <ReadUncommitted>False</ReadUncommitted>
+            <PostSQL />
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AWDW17
+Query=select DimDate.DateKey,
+	Di...</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="DateKey" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int32" />
+            <Field name="FullDateAlternateKey" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Date" />
+            <Field name="DayNumberOfWeek" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="EnglishDayNameOfWeek" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="DayNumberOfMonth" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="DayNumberOfYear" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="WeekNumberOfYear" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="EnglishMonthName" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="MonthNumberOfYear" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarQuarter" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarYear" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarSemester" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalQuarter" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalYear" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalSemester" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="DateKey2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int32" />
+            <Field name="FullDateAlternateKey2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Date" />
+            <Field name="DayNumberOfWeek2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="EnglishDayNameOfWeek2" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="SpanishDayNameOfWeek" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="FrenchDayNameOfWeek" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="DayNumberOfMonth2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="DayNumberOfYear2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="WeekNumberOfYear2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="EnglishMonthName2" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="SpanishMonthName" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="FrenchMonthName" size="10" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="V_WString" />
+            <Field name="MonthNumberOfYear2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarQuarter2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarYear2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="CalendarSemester2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalQuarter2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalYear2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+            <Field name="FiscalSemester2" source="File: aka:AWDW17|||select DimDate.DateKey,&#xA;	DimDate.FullDateAlternateKey,&#xA;	DimDate.DayNumberOfWeek,&#xA;	DimDate.EnglishDayNameOfWeek,&#xA;	DimDate.DayNumberOfMonth,&#xA;	DimDate.DayNumberOfYear,&#xA;	DimDate.WeekNumberOfYear,&#xA;	DimDate.EnglishMonthName,&#xA;	DimDate.MonthNumberOfYear,&#xA;	DimDate.CalendarQuarter,&#xA;	DimDate.CalendarYear,&#xA;	DimDate.CalendarSemester,&#xA;	DimDate.FiscalQuarter,&#xA;	DimDate.FiscalYear,&#xA;	DimDate.FiscalSemester,&#xA;	DimDate.* &#xA;from DimDate" type="Int16" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileOutput.DbFileOutput">
+        <Position x="390" y="54" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <File MaxRecords="" FileFormat="23">aka:AW_Purchase_Output|||DimDate</File>
+          <Passwords />
+          <CachedCosmeticName />
+          <FormatSpecificOptions>
+            <TransactionSize>10000</TransactionSize>
+            <IgnoreDropTableSQLErrors>False</IgnoreDropTableSQLErrors>
+            <PostSQL />
+            <TableStyle>Quoted</TableStyle>
+            <PreSQL />
+            <TransactionMessages>False</TransactionMessages>
+            <OutputOption>Overwrite</OutputOption>
+          </FormatSpecificOptions>
+          <MultiFile value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>aka:AW_Purchase_Output
+Query=DimDate</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileOutput" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>DimDate</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>
